@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="<?php print $lang_abbr;?>">
+
+<head><title><?php print $settings['html_title'];?></title>
+<meta charset="utf-8">
+<meta name="theme-color" content="<?php print $settings['tinting_o'];?>">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="<?php print $xfile_cssstyle;?>?xyz=<?php print $settings['forcereload'];?>">
+<style>
+<?php print $settings['style_delivery']."\n".$settings['webkit_css'];?>
+</style>
+<script src="<?php print $xfile_jsscript;?>?xyz=<?php print $settings['forcereload'];?>"></script>
+<link rel="manifest" href="pwa.webmanifest">
+<link rel="apple-touch-icon" href="app/256.png">
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('pwa.js').then(/* console.log('Service Worker!') */)}
+</script>
+</head>
+
+<body class="x_global x_overal">
+
+<div class="x_bcolor_y x_all_rounded" style="padding:2vw;display:block;margin:auto;margin-top:15vh;text-align:left;width:600px;max-width:90%">
+<b><?php print $lang['del_forget'];?></b><br style="margin:10px 0">
+<?php 
+
+if(strlen($settings['dfg_desc'])>5){print htmlspecialchars($settings['dfg_desc']);}
+else{print $lang['forget_desc'];}
+
+?>
+<br>
+<input type="button" style="width:100%;height:50px;margin-top:20px;border-width:0" class="x_all_rounded x_accent_bg panel_button" type="button" value="<?php print $lang['del_forget'];?>" onclick="self.location.href='forget.php?delete=true'">
+<br>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://belline.net/</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url oeid="5c348634-911f-4856-aba0-16f4544fe7c7" oelang="DEFAULT">
+    <loc>https://belline.net/index.php</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url oeid="c81681aa-78cb-4ac1-b5c2-169d118b25b5" oelang="DEFAULT">
+    <loc>https://belline.net/Chat/Echec.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="06e0cef9-2cd8-499d-84c9-eeae3c42522b" oelang="DEFAULT">
+    <loc>https://belline.net/Chat/Envoi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="9e0858d4-aee9-4405-a829-86f08e2cf577" oelang="DEFAULT">
+    <loc>https://belline.net/Chat/Formulaire.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="6b1b1691-4814-4ac7-bea8-06b65baed42a" oelang="DEFAULT">
+    <loc>https://belline.net/Domicile/Echec.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="1b0bbae3-2e7c-4c1a-b0bb-e4d7bfa7cad5" oelang="DEFAULT">
+    <loc>https://belline.net/Domicile/Envoi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="c069e38f-097f-4446-b084-43099355170d" oelang="DEFAULT">
+    <loc>https://belline.net/Domicile/Formulaire.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="0c15c51f-133b-469c-9ebe-d4a021c8e6f2" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Accueil.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="d2d73bfc-6018-4d63-bf1d-e2c192277283" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Carreau/07.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="b0b5d9ed-7993-45ec-bdbf-d10e156d4936" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Carreau/08.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="aac6fe96-934a-441d-acfc-7a78e5d6692e" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Carreau/09.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="406f5995-6b15-4f92-a6c2-6d791e3e57af" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Carreau/10.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="17c04cbc-1bba-4679-9d68-383c0d6371d7" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Carreau/11-Valet.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="f3f5327f-04b3-4c05-8c17-c2be5f414c25" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Carreau/12-Dame.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="1343bdb4-ddb9-4acd-92a1-da5077ab98c3" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Carreau/13-Roi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="cc5a6a04-3dd0-4057-b2d6-9e496c957328" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Carreau/14-As.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="ada9cb86-1c2b-473c-b4cc-3c3d8a64bebb" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Coeur/07.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="7ce77543-c8d5-4146-8d8b-e386e4d7d294" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Coeur/08.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="d5349fa7-5515-4cd3-91a9-8f5c3f012a19" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Coeur/09.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="e9829925-c08c-4731-afe6-0e2f6e19c9f1" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Coeur/10.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="0d966484-5bc1-438d-9d7e-7f3f3eea9a7c" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Coeur/11-Valet.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="c43fc266-fadb-4a7e-af35-a478eb9cd6b3" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Coeur/12-Dame.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="b6d6d48e-f1a0-4e2a-b7f4-24c1168066c9" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Coeur/13-Roi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="c7d82847-6269-4112-be3b-c686c78edd3f" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Coeur/14-As.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="93fdd3ca-e8ed-47dd-a84f-37274e696925" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Pique/07.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="f3dd2e8a-926f-4ba1-a597-e013dc9ae8dd" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Pique/08.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="60d022e7-27b7-4540-9ef4-0f0ed53cd803" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Pique/09.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="cf3859c8-3fe3-42c1-819b-8ab4e12f5063" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Pique/10.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="05da581a-dcf4-48fd-9baa-051db7af5f98" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Pique/11-Valet.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="5608d950-de66-4cda-981b-02cacaf0f7bc" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Pique/12-Dame.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="1d4e9734-f4d1-4dff-a19f-40fcfedb7f49" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Pique/13-Roi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="73898af9-e77e-41fe-b534-182d7bea930d" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Pique/14-As.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="89951364-eaea-47e8-905b-0eb1dc55c4e9" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Trefle/07.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="a06e5a66-e4f5-4801-bb4c-20c887b8f131" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Trefle/08.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="37d2b110-2558-4be5-81c2-49cec7e4262e" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Trefle/09.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="27abff13-e23d-430b-a849-1a546c747e0d" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Trefle/10.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="9ff93237-7e61-41c8-a717-6c5381888279" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Trefle/11-Valet.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="617ebb28-bee6-46c4-bc48-a8d2159c1434" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Trefle/12-Dame.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="bdf1483c-01f5-4b1b-939b-78dd1b6cfce0" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Trefle/13-Roi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="b316fff8-5304-4a24-8beb-89a2f2bb6d39" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/32-cartes/Trefle/14-As.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="b9ed7317-619f-4ea9-9a8c-67401a817781" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/01-Bleu.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="3a4c68dc-4d68-40bf-a6ab-56b219ff0b68" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/02-Destinee.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="a80c0dd7-66d7-43d8-a881-ea38840f6882" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/03-Homme.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="cb2d49f7-3197-41fa-8b4b-62e354c62330" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/04-Femme.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="86db910e-9681-4a12-8cef-296c02a08d13" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/05-Nativite.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="5818a462-778c-4413-abe6-941be3ef81b7" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/06-Reussite.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="afccef6c-445a-44af-a634-800c18865982" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/07-Elevation.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="92c50b02-9d98-4aff-9ec0-b7065cbe30f1" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/08-Honneurs.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="d48a6509-e95b-493b-ac92-e8f2b1d43219" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/09-Pensee.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="b1adf769-a529-44b0-9d82-91dbb7f66bd3" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/10-Campagne.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="875cc1af-7eda-4e8b-815b-5dc3cbdd6d28" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/11-Presents.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="366c14b6-9411-4689-9cf8-2f3213a7a6bc" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/12-Trahison.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="26172537-1a7d-484a-8b2b-725c7dfa7b74" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/13-Depart.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="c3b4011e-1be5-4a67-af92-d2d2821bef27" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/14-Inconstance.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="320f62cf-73b6-45a9-9ba3-a7326597b170" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/15-Decouverte.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="b0123fc3-843d-4f6f-9045-1af3f030de1a" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/16-Eau.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="8ec48450-0f61-41ed-a336-782e4bd1478b" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/17-Penates.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="a5a589ec-392b-40b6-bc1f-198c636273d3" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/18-Maladie.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="c25c268b-be55-4964-917f-04ee50798b2f" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/19-Changement.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="01e381f7-af52-492c-a373-363dd09ed17e" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/20-Argent.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="2dcbcc32-5afe-484c-b56a-653c12a29cbf" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/21-Intelligence.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="3d057c20-d28d-44f9-89a7-b5ce74907a8f" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/22-Vol.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="5d57fce8-29ee-4156-be1c-3b61cbe52ebb" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/23-Entreprises.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="04d235b2-5c94-41d3-8fd6-729e245aab50" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/24-Trafic.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="1463ed52-cb79-4b26-aa72-6756f354513c" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/25-Nouvelle.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="058f1ef0-ca63-42c6-818a-8c90c71796e9" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/26-Plaisirs.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="6adeb500-d22d-4ff0-a119-d1dc08d33fd6" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/27-Paix.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="a1d05040-fff8-4bf6-acfc-4ab1ed7ea3b4" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/28-Union.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="48e698dd-ddab-422e-8a5b-d1a4a02b5107" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/29-Famille.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="254192a1-c6d3-4958-8075-e9b62e12fd56" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/30-Amor.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="5c6b35b3-648c-49fe-8173-54baa585ff07" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/31-Table.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="4ac43ada-5611-48b1-92b0-a4f84cb343ca" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/32-Passions.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="069f118b-726e-4afc-97c7-6ef4f513563b" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/33-Mechancete.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="b58a96be-815b-44a1-9d32-f90fb61b5067" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/34-Proces.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="b44b8d5c-e07e-44a0-b5d0-0c97e4183a78" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/35-Despotisme.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="92931afe-0e59-444f-b594-fd61f34f12a8" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/36-Ennemis.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="e4933ed5-6f15-4245-9c77-6005bc9cba54" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/37-Pourparlers.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="786d269f-d0a5-4a56-a1e7-f121c17a5780" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/38-Feu.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="e074d561-576e-4f13-b9eb-c00cce7307d2" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/39-Accident.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="683c6267-e8e9-4fd1-a6da-ebb1c297c25d" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/40-Appui.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="eaa5742e-5895-4c6f-8b53-ff069360438c" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/41-Beaute.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="fe821a53-98cb-4311-a6ef-e757b144c049" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/42-Heritage.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="ba2974f2-8ccb-474b-9d8b-e5909b833a9f" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/43-Sagesse.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="4ec6b1a3-f33d-4a88-acff-c0552d653a55" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/44-Renommee.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="ba6af1b3-5f25-4ce6-8876-31e1d74d8b67" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/45-Hasard.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="9e97f3ea-ac91-4d1f-bf73-cad4f3eee7e3" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/46-Bonheur.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="dec16846-2d55-4af3-b273-000ce1e49137" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/47-Infortune.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="db2e74e3-b4bf-456b-895b-ba079e4fb51a" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/48-Sterilite.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="6dc30f7e-3051-493f-830f-5242fcc9003a" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/49-Fatalite.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="e2c83a33-537d-4925-9144-9f4e77da6dd7" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/50-Grace.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="911ca1c9-8174-4428-b33f-9a9254727832" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/51-Ruine.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="3f562d96-70af-44aa-966e-ea2103ba9e4a" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/52-Retard.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="d1999856-2df1-4128-b302-ba55c55085c9" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/53-Cloitre.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="de5ddc6e-b6d6-4a82-8eb7-993f28dec8c3" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Belline/Accueil.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="500ee4cf-570c-4cb2-9f48-0bc2d73ae6fc" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/01-Fou.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="3aec27d8-a7fe-4435-b183-3e1727bb98d8" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/02-Bateleur.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="bfe1c10e-f092-40f0-9a0b-3af7ef10f53a" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/03-Papesse.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="a747aa23-d799-4e15-813c-b17b8aa2929e" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/04-Imperatrice.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="45560ad9-b3f3-4c98-a868-4ecbc8dd2199" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/05-Empereur.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="81b4097e-0aa5-48df-be7e-754040a89b14" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/06-Pape.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="3627c4d8-274c-4a79-8bab-bbc85514f17d" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/07-Amoureux.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="8ed94836-8c51-4494-9874-905256afec40" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/08-Chariot.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="2205bc53-d5f9-4399-b118-74648d3ba16e" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/09-Justice.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="3fc790dd-ca9c-4799-8116-79b13b0a26cc" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/10-Hermite.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="4ed14bd7-82c7-449d-9721-6619ff132382" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/11-Roue.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="d11a3c9d-0ed1-402c-a974-eb75163221ab" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/12-Force.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="396551df-51c0-469b-b4c9-749dd4fc2e3d" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/13-Pendu.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="137ead33-1620-46e3-9039-13d5ea0293b0" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/14-Mort.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="84df1d40-f399-4ef8-9361-eb95b59c9552" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/15-Temperance.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="0da0d16b-cb94-4034-855a-db238596abb0" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/16-Diable.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="acb30dd4-98c0-46b2-a88b-10d13345ddc2" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/16-Maison-Dieu.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="30ebec67-4b0f-4ad2-87a1-0fd82259cbb1" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/17-Etoile.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="4e910618-65f9-4540-b2b5-bebda41bdb69" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/18-Lune.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="7447d365-fe11-4446-a70c-32667d9025ff" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/19-Soleil.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="685e729e-1448-4d11-9e38-c838f46154cf" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/20-Jugement.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="9d9b82aa-8c86-496b-add3-03cb816603aa" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/21-Monde.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="0a6cd865-fdde-4eee-b6c2-9c373e6ef374" oelang="DEFAULT">
+    <loc>https://belline.net/Cartomancie/Tarots/Accueil.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="a0aa792d-320f-4994-8f0b-001830058754" oelang="DEFAULT">
+    <loc>https://belline.net/Gratuite/Echec.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="06aea0eb-b96f-4149-baac-885c28ffbeb1" oelang="DEFAULT">
+    <loc>https://belline.net/Gratuite/Envoi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="8ddc298b-3e85-4534-90e8-97b230a33f52" oelang="DEFAULT">
+    <loc>https://belline.net/Gratuite/Formulaire.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="06960554-2467-4933-a594-0522e0226b2d" oelang="DEFAULT">
+    <loc>https://belline.net/Magie/Echec.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="c58b76be-266d-47e0-acfe-6b1e03dd0ccf" oelang="DEFAULT">
+    <loc>https://belline.net/Magie/Envoi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="c9190841-b78a-487c-9e42-174ca3480e77" oelang="DEFAULT">
+    <loc>https://belline.net/Magie/Formulaire.php</loc>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+  <url oeid="4fe62d1b-f247-42e9-9e2e-cf0720bc939d" oelang="DEFAULT">
+    <loc>https://belline.net/Methodes/Accueil.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="9250ed17-3a6f-429f-9cf5-b073840898e6" oelang="DEFAULT">
+    <loc>https://belline.net/Methodes/Croix.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="8fe96eb4-d99e-4f55-b4d8-a15526a76c1c" oelang="DEFAULT">
+    <loc>https://belline.net/Methodes/Ligne.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="e1136bce-a64b-4cab-8d77-4fbaed301e13" oelang="DEFAULT">
+    <loc>https://belline.net/Methodes/Pyramide.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="1f070ea9-8aa9-46d8-a082-39958fa9f97d" oelang="DEFAULT">
+    <loc>https://belline.net/Paiement/Paiement_accepte.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="2ac51246-6c2f-4a45-a315-16b6f66788cc" oelang="DEFAULT">
+    <loc>https://belline.net/Paiement/Paiement_avorte.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="95e3fd1e-0b67-4941-b98f-7d8e1d13b678" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Accueil.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="28157fd4-8ecd-44f7-a7b0-e174a28cf78e" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Jupiter.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="b28eba9d-cce0-4409-ab5c-59ba309d7cb4" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Lune.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="4d1f7048-5ef1-49ee-8ae5-09666635aa57" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Mars.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="c44d0147-0f60-44c3-a1e3-fb874b52f989" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Mercure.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="61e50800-d968-4d2b-b885-d16f60f15534" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Neptune.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="28aaa0c7-a769-4ee3-a36a-48fdf9693958" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Pluton.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="cc24b80b-7a98-41c3-b3a2-99c5ea3fcbb5" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Saturne.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="9118c658-199d-4714-bae2-9d221642359d" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Soleil.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="ea605b96-9654-46fd-8182-05debb518596" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Uranus.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="ad0d96cb-f3b6-4692-9c9a-9dd753a62f2f" oelang="DEFAULT">
+    <loc>https://belline.net/Planetes/Venus.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="40d00646-3ade-4330-9844-7d706af9b4ce" oelang="DEFAULT">
+    <loc>https://belline.net/Dons/Dons.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="8e5c4081-0b3c-4ddb-b83a-820a1b85e533" oelang="DEFAULT">
+    <loc>https://belline.net/CGU/CGU.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="11cdcad4-3561-4376-859f-b32a51f69147" oelang="DEFAULT">
+    <loc>https://belline.net/Mail/Formulaire.php</loc>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+  <url oeid="2e0c38d5-e6d2-41ed-878f-81ee877a7757" oelang="DEFAULT">
+    <loc>https://belline.net/Mail/Envoi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="59e0a2a6-120a-412a-8691-9a457432d832" oelang="DEFAULT">
+    <loc>https://belline.net/Mail/Echec.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="a5b26a15-3459-4b6a-a1fd-6e66ad776eaf" oelang="DEFAULT">
+    <loc>https://belline.net/Partenaires/Partenaires.php</loc>
+    <lastmod>2026-03-31</lastmod>
+  </url>
+  <url oeid="172e7c66-bb26-4e9d-9079-5fd2d68e9bdf" oelang="DEFAULT">
+    <loc>https://belline.net/Coaching/Formulaire.php</loc>
+    <lastmod>2026-04-13</lastmod>
+  </url>
+  <url oeid="745a6421-82bb-4a71-8eab-a0ed8a9aa899" oelang="DEFAULT">
+    <loc>https://belline.net/Coaching/Envoi.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url oeid="0b92aeda-2eee-44db-9c94-db3fbccf5b5b" oelang="DEFAULT">
+    <loc>https://belline.net/Coaching/Echec.php</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+</urlset>

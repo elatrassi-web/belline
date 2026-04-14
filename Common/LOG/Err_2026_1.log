@@ -1,0 +1,198 @@
+05/01/2026 13:51:17 | 
+05/01/2026 13:51:17 | 
+Message : Script timed out
+05/01/2026 13:51:17 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+05/01/2026 13:51:17 | 
+Params : 
+05/01/2026 13:51:17 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+05/01/2026 13:51:17 | 
+Stamp : 05/01/2026 13:51:16
+05/01/2026 13:51:17 | 
+OSFullName : Microsoft Windows 11 Famille
+05/01/2026 13:51:17 | 
+AvailablePhysicalMemory : 2,2 Go 
+05/01/2026 13:51:17 | 
+TotalPhysicalMemory : 7,74 Go 
+05/01/2026 13:51:17 | 
+AvailableVirtualMemory : 3,03 Go 
+05/01/2026 13:51:17 | 
+TotalVirtualMemory : 4 Go 
+05/01/2026 13:51:17 | 
+WorkingSet : 389 Mo 
+05/01/2026 13:51:17 | 
+PagedMemorySize : 308,29 Mo 
+05/01/2026 13:51:17 | 
+TotalMemory : 52,24 Mo 
+05/01/2026 13:51:17 | 
+
+05/01/2026 13:51:17 | 
+ExTrace : 
+05/01/2026 13:51:17 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+05/01/2026 13:51:17 | 
+
+05/01/2026 13:51:17 | 
+OETrace : 
+05/01/2026 13:51:17 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+05/01/2026 13:51:17 | 
+à openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+05/01/2026 13:51:17 | 
+
+05/01/2026 13:51:17 | 
+------------------
+1/10/2026 7:10:15 PM | 
+1/10/2026 7:10:15 PM | 
+Message : Le processus ne peut pas accéder au fichier 'C:\Users\steph\AppData\Local\openElement\1.57.9\UserToolsBox3.xml', car il est en cours d'utilisation par un autre processus.
+1/10/2026 7:10:15 PM | 
+LastTrace : openElement.Forms.FrmMain.SaveUserUIConfigToolsBox()
+1/10/2026 7:10:15 PM | 
+Params : 
+1/10/2026 7:10:15 PM | 
+MethodeName : Void WinIOError(Int32, System.String)
+1/10/2026 7:10:15 PM | 
+Stamp : 1/10/2026 7:10:15 PM
+1/10/2026 7:10:15 PM | 
+OSFullName : Microsoft Windows 11 Famille
+1/10/2026 7:10:15 PM | 
+AvailablePhysicalMemory : 1.33 Go 
+1/10/2026 7:10:15 PM | 
+TotalPhysicalMemory : 7.74 Go 
+1/10/2026 7:10:15 PM | 
+AvailableVirtualMemory : 3.09 Go 
+1/10/2026 7:10:15 PM | 
+TotalVirtualMemory : 4 Go 
+1/10/2026 7:10:15 PM | 
+WorkingSet : 273.78 Mo 
+1/10/2026 7:10:15 PM | 
+PagedMemorySize : 251.62 Mo 
+1/10/2026 7:10:15 PM | 
+TotalMemory : 41.66 Mo 
+1/10/2026 7:10:15 PM | 
+
+1/10/2026 7:10:15 PM | 
+ExTrace : 
+1/10/2026 7:10:15 PM | 
+à openElement.Forms.FrmMain.SaveUserUIConfigToolsBox()
+1/10/2026 7:10:15 PM | 
+
+1/10/2026 7:10:15 PM | 
+OETrace : 
+1/10/2026 7:10:15 PM | 
+à openElement.Forms.FrmMain.SaveUserUIConfigToolsBox()
+1/10/2026 7:10:15 PM | 
+à openElement.Forms.FrmMain.FrmMain_FormClosing(Object sender, FormClosingEventArgs e)
+1/10/2026 7:10:15 PM | 
+à openElement.Forms.FrmMain.WndProc(Message& m)
+1/10/2026 7:10:15 PM | 
+à openElement.Forms.FrmMain.WndProc(Message& m)
+1/10/2026 7:10:15 PM | 
+à openElement.My.MyApplication.Main(String[] Args)
+1/10/2026 7:10:15 PM | 
+
+1/10/2026 7:10:15 PM | 
+------------------
+1/19/2026 5:40:21 PM | 
+1/19/2026 5:40:21 PM | 
+Message : La référence d'objet n'est pas définie à une instance d'un objet.
+1/19/2026 5:40:21 PM | 
+LastTrace : openElement.WebElement.ModDataEditTools.SetAllDataEdit(Page page, List`1 allDataEdit, String mediaKey)
+1/19/2026 5:40:21 PM | 
+Params : 
+1/19/2026 5:40:21 PM | 
+MethodeName : Void SetAllDataEdit(openElement.WebElement.Page, System.Collections.Generic.List`1[openElement.WebElement.WEDataEdit], System.String)
+1/19/2026 5:40:21 PM | 
+Stamp : 1/19/2026 5:40:20 PM
+1/19/2026 5:40:21 PM | 
+OSFullName : Microsoft Windows 11 Famille
+1/19/2026 5:40:21 PM | 
+AvailablePhysicalMemory : 1.81 Go 
+1/19/2026 5:40:21 PM | 
+TotalPhysicalMemory : 7.74 Go 
+1/19/2026 5:40:21 PM | 
+AvailableVirtualMemory : 3.05 Go 
+1/19/2026 5:40:21 PM | 
+TotalVirtualMemory : 4 Go 
+1/19/2026 5:40:21 PM | 
+WorkingSet : 211.38 Mo 
+1/19/2026 5:40:21 PM | 
+PagedMemorySize : 257.65 Mo 
+1/19/2026 5:40:21 PM | 
+TotalMemory : 37.03 Mo 
+1/19/2026 5:40:21 PM | 
+
+1/19/2026 5:40:21 PM | 
+ExTrace : 
+1/19/2026 5:40:21 PM | 
+à openElement.WebElement.ModDataEditTools.SetAllDataEdit(Page page, List`1 allDataEdit, String mediaKey)
+1/19/2026 5:40:21 PM | 
+à openElement.WebElement.Page.SetJsonDataEdit(String jsonData, String mKey)
+1/19/2026 5:40:21 PM | 
+à openElement.Forms.PageEditFromJs._SetJsonDataEdit(String jsonData, Boolean noPageUpdate)
+1/19/2026 5:40:21 PM | 
+
+1/19/2026 5:40:21 PM | 
+OETrace : 
+1/19/2026 5:40:21 PM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams)
+1/19/2026 5:40:21 PM | 
+à openElement.Forms.PageEditFromJs._SetJsonDataEdit(String jsonData, Boolean noPageUpdate)
+1/19/2026 5:40:21 PM | 
+à openElement.My.MyApplication.Main(String[] Args)
+1/19/2026 5:40:21 PM | 
+
+1/19/2026 5:40:21 PM | 
+------------------
+1/20/2026 7:36:39 PM | 
+1/20/2026 7:36:39 PM | 
+Message : La référence d'objet n'est pas définie à une instance d'un objet.
+1/20/2026 7:36:39 PM | 
+LastTrace : openElement.WebElement.ModDataEditTools.SetAllDataEdit(Page page, List`1 allDataEdit, String mediaKey)
+1/20/2026 7:36:39 PM | 
+Params : 
+1/20/2026 7:36:39 PM | 
+MethodeName : Void SetAllDataEdit(openElement.WebElement.Page, System.Collections.Generic.List`1[openElement.WebElement.WEDataEdit], System.String)
+1/20/2026 7:36:39 PM | 
+Stamp : 1/20/2026 7:36:38 PM
+1/20/2026 7:36:39 PM | 
+OSFullName : Microsoft Windows 11 Famille
+1/20/2026 7:36:39 PM | 
+AvailablePhysicalMemory : 1.06 Go 
+1/20/2026 7:36:39 PM | 
+TotalPhysicalMemory : 7.74 Go 
+1/20/2026 7:36:39 PM | 
+AvailableVirtualMemory : 3.1 Go 
+1/20/2026 7:36:39 PM | 
+TotalVirtualMemory : 4 Go 
+1/20/2026 7:36:39 PM | 
+WorkingSet : 293.11 Mo 
+1/20/2026 7:36:39 PM | 
+PagedMemorySize : 254.13 Mo 
+1/20/2026 7:36:39 PM | 
+TotalMemory : 35.06 Mo 
+1/20/2026 7:36:39 PM | 
+
+1/20/2026 7:36:39 PM | 
+ExTrace : 
+1/20/2026 7:36:39 PM | 
+à openElement.WebElement.ModDataEditTools.SetAllDataEdit(Page page, List`1 allDataEdit, String mediaKey)
+1/20/2026 7:36:39 PM | 
+à openElement.WebElement.Page.SetJsonDataEdit(String jsonData, String mKey)
+1/20/2026 7:36:39 PM | 
+à openElement.Forms.PageEditFromJs._SetJsonDataEdit(String jsonData, Boolean noPageUpdate)
+1/20/2026 7:36:39 PM | 
+
+1/20/2026 7:36:39 PM | 
+OETrace : 
+1/20/2026 7:36:39 PM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams)
+1/20/2026 7:36:39 PM | 
+à openElement.Forms.PageEditFromJs._SetJsonDataEdit(String jsonData, Boolean noPageUpdate)
+1/20/2026 7:36:39 PM | 
+à openElement.My.MyApplication.Main(String[] Args)
+1/20/2026 7:36:39 PM | 
+
+1/20/2026 7:36:39 PM | 
+------------------

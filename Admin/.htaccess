@@ -1,0 +1,13 @@
+DirectoryIndex index.php
+
+<Files ".htpasswd">
+    Require all denied
+</Files>
+
+
+<Files "index.php">
+    AuthType Basic
+    AuthName "Accès restreint"
+    AuthUserFile /var/www/belline.net/htdocs/Admin/.htpasswd
+    Require valid-user
+</Files>

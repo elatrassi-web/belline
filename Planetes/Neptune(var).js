@@ -1,0 +1,1 @@
+var OEConfWEDisableRightClick = {"WEa018871bef":{"Text":{"Items":{"DEFAULT":"Clic droit interdit"}}},"WEc9e2cbc248":{"Text":{"Items":{"DEFAULT":"Clic droit interdit"}}},"WE6751676752":{"Text":{"Items":{"DEFAULT":"Clic droit interdit"}}}}
