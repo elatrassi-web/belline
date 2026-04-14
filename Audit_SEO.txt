@@ -1,0 +1,52 @@
+# Rapport d'Audit SEO pour le site https://belline.net/
+
+## Introduction
+Ce document présente l'audit SEO détaillé du site belline.net développé via le CMS openElement 1.57.9. Il aborde le SEO technique, le contenu, l'expérience utilisateur et les recommandations globales pour renforcer le référencement naturel.
+
+## 1. SEO Technique
+
+### 1.1. Balises Meta (Title, Description, Keywords)
+- **Title et Description** : La page d'accueil possède bien un `<title>` et une `<meta description>` pertinents. Toutefois, plusieurs sous-pages semblent partager la même description ou des titres très similaires. Il est nécessaire d'avoir un titre et une description uniques pour chaque page (ex: une pour la tarologie, une pour le coaching, etc.).
+- **Keywords** : La balise `<meta keywords>` est obsolète pour Google. Vous pouvez la laisser, mais elle ne sert plus à améliorer le positionnement.
+
+### 1.2. Fichiers Robots.txt et Sitemap.xml
+- **Sitemap.xml** : Le fichier sitemap est présent et contient bien les pages du site. C'est un excellent point. Cependant, la date de modification (lastmod) est configurée dans le futur ("2026-04-14"), ce qui est une erreur technique. Google risque d'ignorer ces dates.
+- **Robots.txt** : Le fichier est présent et redirige bien vers le sitemap.
+
+### 1.3. Vitesse et mise en cache
+- **Fichier .htaccess** : La mise en cache est actuellement bloquée par la directive `Cache-Control "private, max-age=0, must-revalidate"`. Il est conseillé de configurer une mise en cache navigateur avec des temps d'expiration longs (ex: 1 mois) pour les images, CSS et JS afin d'améliorer la vitesse du site pour les visiteurs récurrents.
+
+### 1.4. Balisage HTML (H1, H2, H3...)
+- **Balise H1** : Sur de nombreuses pages, le texte principal en `<h1>` est inséré via un tag `<script>` (`<script><h1>Voyance gratuite...</h1></script>`). C'est une très mauvaise pratique SEO car les robots de Google pourraient avoir des difficultés à l'interpréter correctement ou y voir une tentative de manipulation. Le H1 doit être visible, naturel, et codé en HTML standard.
+- **Absence de structure H2/H3** : De nombreuses pages contiennent beaucoup de texte brut en gras (`<b>`) au lieu de balises de titres structurantes (`<h2>`, `<h3>`). La hiérarchie est indispensable pour la bonne compréhension du sujet par Google.
+
+### 1.5. Optimisation des images (Attribut Alt)
+- Sur tout le site, les images possèdent des attributs `alt=""` vides. Les balises alt servent à décrire les images pour Google. Sans cela, le référencement dans Google Images est nul. Par exemple, l'image `Mail.png` devrait avoir `alt="Consultation de voyance par email"`.
+
+## 2. Contenu et Expérience Utilisateur (UX)
+
+### 2.1. Compatibilité Mobile (Responsive Design)
+- **Alerte majeure** : La majorité des pages publiques (comme `index.php`, `Gratuite/Formulaire.php`) ne possèdent **pas de balise `<meta name="viewport" content="width=device-width, initial-scale=1.0">`**. Cela indique que le site n'est pas optimisé pour les téléphones portables ("Responsive Design").
+- Le site propose un lien vers une version "Smartphone" externe (belline.voyance.free.fr), ce qui dilue votre SEO. L'indexation "Mobile First" de Google pénalisera lourdement belline.net s'il n'est pas responsive nativement.
+
+### 2.2. Données Structurées (Schema.org)
+- Le site ne contient aucune donnée structurée (Rich Snippets). Ajouter le schéma "LocalBusiness" ou "ProfessionalService" au code permettrait à Google de mieux comprendre que vous êtes un professionnel (avec horaires, localisation géographique à Bourges, etc.), augmentant les chances d'apparaître dans les résultats locaux.
+
+### 2.3. URLs et Arborescence
+- Les URL du site finissent par `.php`. Les moteurs de recherche les indexent, mais il est recommandé d'utiliser des URL propres (URL Rewriting) comme `/cartomancie/belline/` plutôt que `/Cartomancie/Belline/Accueil.php`.
+
+## 3. Recommandations prioritaires pour renforcer le SEO (Plan d'action)
+
+1. **Rendre le site Responsive (Mobile-Friendly)** :
+   - Ajouter la balise viewport dans la section `<head>` de toutes les pages.
+   - Refondre le design pour qu'il s'adapte aux petits écrans et supprimer le renvoi vers la version Free.fr pour concentrer le trafic SEO sur `belline.net`.
+2. **Corriger la balise H1** :
+   - Retirer les `<h1>` présents dans les `<script>` et les intégrer naturellement et visiblement dans le code source de chaque page. Un seul H1 par page, descriptif du contenu de la page.
+3. **Structurer le contenu avec des balises H2/H3** :
+   - Au lieu de mettre de longs textes avec la police en italique ou en gras (`<b>`), utilisez de vrais titres `<h2>` pour séparer vos paragraphes.
+4. **Remplir les balises ALT des images** :
+   - Décrire chaque image (ex: cartes du tarot, photo personnelle, icônes) avec des mots-clés liés au contenu.
+5. **Corriger le Sitemap** :
+   - Mettre à jour les dates `lastmod` du fichier `sitemap.xml` pour qu'elles reflètent de réelles dates de modification (et non l'année 2026).
+6. **Mettre en place la mise en cache** :
+   - Retirer le `max-age=0` du `.htaccess` et implémenter les directives `ExpiresByType` pour accélérer le temps de chargement global.
