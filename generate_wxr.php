@@ -1,23 +1,57 @@
 <?php
 // Script to generate a WordPress WXR file from the old static PHP files.
-// This allows importing all the pages (Cartomancie, Planetes, etc.) into WP easily.
 
 $baseUrl = 'https://belline.net/';
 $outputFile = 'import-belline.xml';
 
-// Find all .php files except admin/garbage etc
 $files = [];
 $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator('.'));
+
+// Folders we WANT to import pages from
+$allowedFolders = [
+    './Cartomancie',
+    './Methodes',
+    './Planetes',
+    './Dons',
+    './CGU',
+];
+
+// Specific files at root to keep
+$allowedFiles = [
+    './index.php',
+    './Partenaires/Partenaires.php'
+];
+
 foreach ($iterator as $file) {
     if ($file->isDir()) continue;
     $path = $file->getPathname();
 
-    // Ignore some directories
-    if (strpos($path, './.git') === 0 || strpos($path, './Admin') === 0 || strpos($path, './Garbage') === 0 || strpos($path, './Backup') === 0 || strpos($path, './wordpress-theme') === 0) {
+    if (pathinfo($path, PATHINFO_EXTENSION) !== 'php') {
         continue;
     }
 
-    if (pathinfo($path, PATHINFO_EXTENSION) === 'php') {
+    $isAllowed = false;
+    foreach ($allowedFolders as $folder) {
+        if (strpos($path, $folder) === 0) {
+            $isAllowed = true;
+            break;
+        }
+    }
+
+    if (in_array($path, $allowedFiles)) {
+        $isAllowed = true;
+    }
+
+    // Specifically exclude "Formulaire", "Envoi", "Echec" since they are logic/forms
+    if (strpos($path, 'Formulaire.php') !== false ||
+        strpos($path, 'Envoi.php') !== false ||
+        strpos($path, 'Echec.php') !== false ||
+        strpos($path, 'Accueil.php') !== false // Handled manually or redundant
+    ) {
+        $isAllowed = false;
+    }
+
+    if ($isAllowed) {
         $files[] = $path;
     }
 }
@@ -46,47 +80,33 @@ $postId = 1000;
 foreach ($files as $file) {
     $content = file_get_contents($file);
 
-    // Extract title (from <title> tag)
     $title = '';
     if (preg_match('/<title>(.*?)<\/title>/is', $content, $matches)) {
         $title = $matches[1];
-        $title = str_replace([' - Magie blanche', ' sur https://belline.net'], '', $title);
+        $title = str_replace([' - Magie blanche', ' sur https://belline.net', '&#233;'], ['', '', 'é'], $title);
     }
 
-    // If no title found or title is empty, use filename
     if (empty($title)) {
         $title = basename($file, '.php');
     }
 
-    // Attempt to extract the main content.
-    // Looking for the main text box. It's often inside <span class="ContentBox"> or <div class="OESZ_DivContent">
     $mainContent = '';
 
-    // Extremely basic extraction for demonstration and migration
-    // We will extract everything between `<div id="XBody"` and `</body>` then strip out scripts
     if (preg_match('/<div id="XBody"[^>]*>(.*?)<\/body>/is', $content, $bodyMatches)) {
         $mainContent = $bodyMatches[1];
 
-        // Strip out scripts
         $mainContent = preg_replace('/<script\b[^>]*>(.*?)<\/script>/is', "", $mainContent);
-        // Strip out navigation images/links that are mostly redundant in WP
-        $mainContent = preg_replace('/<a href="[^"]*"><img src="[^"]*(Accueil|Droite|Gauche)[^"]*"[^>]*><\/a>/is', "", $mainContent);
-
-        // Keep only inner HTML of ContentBox to get text, or keep as is if too complex
-        // We'll keep it raw for the user to refine in WP, but clean up CDATA
+        // Clean out typical openElement navigation images
+        $mainContent = preg_replace('/<a href="[^"]*"><img src="[^"]*(Accueil|Droite|Gauche|Methodes|Planetes|Tarots|Belline|Gratuite|mail|tchat|domicile|coaching)[^"]*"[^>]*><\/a>/is', "", $mainContent);
     }
 
-    // Clean up content for CDATA
     $mainContent = str_replace(']]>', ']]&gt;', $mainContent);
     $mainContent = htmlspecialchars($mainContent, ENT_NOQUOTES, 'UTF-8');
-
-    // We use htmlspecialchars because CDATA can sometimes break if not perfectly formed, but standard WP export uses CDATA.
-    // Let's use CDATA properly:
     $mainContentHtml = html_entity_decode($mainContent, ENT_QUOTES, 'UTF-8');
 
     $slug = sanitize_title(basename($file, '.php'));
     $folder = basename(dirname($file));
-    if ($folder !== '.') {
+    if ($folder !== '.' && $folder !== '32-cartes' && $folder !== 'Tarots' && $folder !== 'Belline') {
         $slug = sanitize_title($folder) . '-' . $slug;
     }
     if ($file === './index.php') {
@@ -140,5 +160,5 @@ function sanitize_title($title) {
     return $title;
 }
 
-echo "WXR generated successfully.\n";
+echo "Clean WXR generated successfully. Pages processed: " . count($files) . "\n";
 ?>
