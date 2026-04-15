@@ -8,13 +8,18 @@ get_header(); ?>
 <main id="primary" class="site-main">
 
     <style>
+        .spa-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            gap: 20px;
+            align-items: flex-start;
+        }
         .navigation-grid {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column;
             gap: 10px;
-            margin: 20px 0;
-            align-items: center;
+            flex: 0 0 auto;
         }
         .spa-button {
             cursor: pointer;
@@ -93,6 +98,7 @@ get_header(); ?>
         }
     </style>
 
+    <div class="spa-container">
     <div class="navigation-grid">
         <!-- Add an explicit Accueil button if needed later, right now Voyance Gratuite is default -->
         <button class="spa-button" data-target="gratuite" aria-label="Voyance Gratuite"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Gratuite.png" alt="Voyance Gratuite"></button>
@@ -109,7 +115,7 @@ get_header(); ?>
         <button class="spa-button" data-target="planetes" aria-label="Planètes"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Planetes.png" alt="Planètes"></button>
     </div>
 
-    <div class="content-area" style="padding: 20px; max-width: 800px; margin: 0 auto; color: #fff; background: rgba(0,0,0,0.6); border-radius: 10px; border: 1px solid #c0a062; text-align: center;">
+    <div class="content-area" style="flex: 1; padding: 20px; color: #fff; background: rgba(0,0,0,0.6); border-radius: 10px; border: 1px solid #c0a062; text-align: center;">
 
         <!-- Welcome (Default Content based on original prompt) -->
         <div id="content-accueil" class="spa-content-section active">
@@ -132,7 +138,7 @@ get_header(); ?>
             <p style="color: yellow; font-style: italic; font-weight: bold;">(Offre réservée aux nouveaux consultants valable une seule fois)</p>
             <p style="font-style: italic; font-weight: bold;">Stéphane.</p>
 
-            <form class="belline-form" method="POST" action="">
+            <form class="belline-form" method="POST" action="" enctype="multipart/form-data">
                 <div class="belline-form-group">
                     <label>Votre prénom</label>
                     <input type="text" name="prenom" required>
@@ -204,7 +210,7 @@ get_header(); ?>
             <p style="color: yellow; font-style: italic; font-weight: bold;">Pour le paiement de cette consultation, rapprochez-vous de la rubrique "Dons"</p>
             <p style="font-style: italic; font-weight: bold;">Stéphane.</p>
 
-            <form class="belline-form" method="POST" action="">
+            <form class="belline-form" method="POST" action="" enctype="multipart/form-data">
                 <div class="belline-form-group">
                     <label>Votre prénom</label>
                     <input type="text" name="prenom" required>
@@ -304,6 +310,7 @@ get_header(); ?>
         </div>
 
     </div>
+    </div> <!-- Close spa-container -->
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
