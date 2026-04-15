@@ -581,8 +581,94 @@ get_header(); ?>
 
         <!-- À domicile Content -->
         <div id="content-domicile" class="spa-content-section">
-            <h2>Consultation à domicile</h2>
-            <p><em>Contenu à venir...</em></p>
+<div class="OESZ OESZ_DivContent OESZG_WE8bfb2a0fb0">
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h2 style="color: #ffff00; font-style: italic; font-family: 'Times New Roman', Times, serif;">Consultation à votre domicile</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icone_domicile.png" alt="Consultation à votre domicile" style="max-width: 200px; margin-top: 10px;">
+    </div>
+
+    <div style="text-align: center; font-style: italic; font-weight: bold; font-family: 'Times New Roman', Times, serif; line-height: 1.6; margin-bottom: 20px;">
+        <p>Je vous propose un service unique : des séances à domicile, vous permettant de bénéficier d’une expérience intime et personnalisée dans le confort de votre logement.</p>
+
+        <p>La voyance et la cartomancie sont des pratiques ancestrales qui nous connectent à notre intuition et à l’énergie qui nous entoure. Grâce à des lectures de cartes, tels que les oracles, je peux vous aider à éclaircir vos préoccupations, qu’elles soient liées à l’amour, au travail, à la famille ou à d’autres aspects de votre vie.</p>
+
+        <p>Le coaching spirituel, quand à lui, est beaucoup plus récent et permet, entre autre chose, de se reconnecter à son moi intérieur, d'affiner son intuition, permet le soutien durant les transitions de la vie...</p>
+
+        <p>En choisissant une consultation à domicile, vous vous offrez un moment privilégié, où confort et confidentialité sont au rendez-vous. Ensemble, nous découvrirons ce que l’univers a à vous révéler et comment vous pouvez utiliser ces connaissances pour avancer sur votre chemin de vie.</p>
+
+        <p>Je vous propose de me déplacer à votre domicile dans un rayon de 15 kms aux alentours de St Florent sur Cher (à 20 kms de la ville de Bourges dans le département du Cher 18000) de 9h à 19h.</p>
+
+        <p>N’hésitez pas à me contacter pour planifier votre séance et commencer cette belle aventure vers le futur et l’épanouissement personnel.</p>
+
+        <p style="color: #ffff00;">Pour le paiement de cette consultation, rapprochez-vous de la rubrique "Dons"</p>
+
+        <p>Stéphane</p>
+    </div>
+
+    <div style="font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bold;">
+        <form method="POST" action="" enctype="multipart/form-data">
+            <table style="width: 100%; border-collapse: separate; border-spacing: 0 15px;">
+                <tr>
+                    <td style="text-align: right; padding-right: 20px; width: 40%;"><label for="domicile-prenom">Votre prénom</label></td>
+                    <td><input type="text" id="domicile-prenom" name="prenom" style="width: 80%; padding: 5px;"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="domicile-mail">Votre adresse mail</label></td>
+                    <td><input type="email" id="domicile-mail" name="mail" style="width: 80%; padding: 5px;" required></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="domicile-naissance">Votre date de naissance</label></td>
+                    <td>
+                        <input type="date" id="domicile-naissance" name="date_naissance" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="domicile-date-rdv">Date du rendez-vous</label></td>
+                    <td>
+                        <input type="date" id="domicile-date-rdv" name="date_rdv" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="domicile-heure-rdv">Heure du rendez-vous</label></td>
+                    <td>
+                        <input type="time" id="domicile-heure-rdv" name="heure_rdv" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="domicile-photo">Votre photo (recommandée)</label></td>
+                    <td>
+                        <input type="file" id="domicile-photo" name="photo" accept="image/*" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="domicile-question">Votre question concerne</label></td>
+                    <td>
+                        <select id="domicile-question" name="domaine" style="padding: 5px;">
+                            <option value="Amour">Amour</option>
+                            <option value="Travail">Travail</option>
+                            <option value="Argent">Argent</option>
+                            <option value="Sante">Santé</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px; vertical-align: top;"><label for="domicile-probleme">Exposez moi votre problème précis</label></td>
+                    <td>
+                        <textarea id="domicile-probleme" name="probleme" style="width: 80%; height: 150px; padding: 5px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit" style="padding: 10px 20px; cursor: pointer; font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bold;">Envoyer le<br>formulaire</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
         </div>
 
         <!-- Vos Dons Content -->
