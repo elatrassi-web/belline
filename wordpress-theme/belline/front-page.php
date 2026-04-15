@@ -673,8 +673,43 @@ get_header(); ?>
 
         <!-- Vos Dons Content -->
         <div id="content-dons" class="spa-content-section">
-            <h2>Vos Dons</h2>
-            <p><em>Contenu à venir...</em></p>
+<div class="OESZ OESZ_DivContent OESZG_WE8bfb2a0fb0">
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h2 style="color: #ffff00; font-style: italic; font-family: 'Times New Roman', Times, serif;">Dons pour mes consultations</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tirelire.png" alt="Tirelire" style="max-width: 200px; margin-top: 10px;">
+    </div>
+
+    <div style="text-align: center; font-style: italic; font-weight: bold; font-family: 'Times New Roman', Times, serif; line-height: 1.6; margin-bottom: 20px;">
+        <p>La contribution financière dans le domaine de la cartomancie de la magie blanche ou du coaching spirituel va au-delà d’une simple transaction commerciale ; elle représente un échange énergétique qui illustre la valeur du service rendu et l’intention qui l’accompagne. Ce processus favorise l’établissement d’une relation de confiance et de respect mutuel entre praticien et consultants, ce qui est fondamental pour le succès des pratiques ésotériques.</p>
+
+        <p>Consultation <span style="color: #ffff00;">gratuite</span> : Offre réservée aux nouveaux consultants valable une seule fois.</p>
+
+        <p>La consultation par <span style="color: #ffff00;">email</span> est une méthode de prestation de services ou de conseils à distance, permettant d'obtenir des réponses, des recommandations pour sa flexibilité, sa rapidité et son accessibilité. Les dons sont d'environ 9.5 € par question.</p>
+
+        <p>Consultation <span style="color: #ffff00;">détaillée</span> : pour une séance d'une demi heure à une heure environ par tchat, vous bénéficierez d'une analyse détaillée de votre situation et de réponses plus précises à vos interrogations. Les dons sont d'environ 23 € pour une demi heure et 50 € environ pour une heure par tchat .</p>
+
+        <p>La <span style="color: #ffff00;">magie blanche</span> s’appuie sur des forces positives et l’amour. Elle utilise des rituels, des symboles et des incantations pour canaliser des énergies bénéfiques, dans le but de vous aider et de favoriser des changements positifs dans votre vie. Pour les séances par tchat, les dons sont de 25 € à 170 € variables en fonction de votre problématique et du quartz ou la pierre semi-précieuse qui vous correspond le mieux.</p>
+
+        <p>Le <span style="color: #ffff00;">coaching spirituel</span>, constitue un accompagnement destiné à vous aider à explorer et à développer votre dimension spirituelle. Cela peut englober la quête de sens dans la vie, la connexion avec soi-même, l’alignement avec ses valeurs et croyances, ainsi que l’épanouissement personnel. Les dons sont récurents et sont d'environ 73.5 € la séance. Il faut compter plusieurs séances pour arriver à vos fins.</p>
+
+        <p>Je vous propose de me déplacer à <span style="color: #ffff00;">votre domicile</span> dans un rayon de 15 kms aux alentours de St Florent sur Cher pour une consultation de voyance (à 20 kms de Bourges dans le département du Cher 18000). Les dons sont en moyenne de 65 €.</p>
+
+        <p>N'hésitez pas à franchir le pas et à réserver dès maintenant votre rendez-vous !</p>
+
+        <p>Je vous remercie de me permettre de vous accompagner dans vos interrogations, vos décisions et dans toutes vos démarches à venir.</p>
+
+        <p>Merci encore pour votre confiance.</p>
+
+        <p>Stéphane.</p>
+    </div>
+
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="https://www.paypal.com/donate?token=CPoHOj-rwjZoW_lu8xOuM57_-4cK61YS8we2gRjAqFNPmKJiQ4sQFE4DgiSEIMG-gR0HiHDk83H1FKiq" target="_blank" rel="noopener noreferrer">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bouton_don.png" alt="Faire un don" style="max-width: 300px;">
+        </a>
+    </div>
+</div>
+
         </div>
 
         <!-- 32 cartes Content -->
