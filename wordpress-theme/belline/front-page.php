@@ -487,8 +487,96 @@ get_header(); ?>
 
         <!-- Coaching Content -->
         <div id="content-coaching" class="spa-content-section">
-            <h2>Coaching</h2>
-            <p><em>Contenu à venir...</em></p>
+<div class="OESZ OESZ_DivContent OESZG_WE8bfb2a0fb0">
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h2 style="color: #ffff00; font-style: italic; font-family: 'Times New Roman', Times, serif;">Coaching spirituel</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spirituel.png" alt="Coaching spirituel" style="max-width: 200px; margin-top: 10px;">
+    </div>
+
+    <div style="text-align: center; font-style: italic; font-weight: bold; font-family: 'Times New Roman', Times, serif; line-height: 1.6; margin-bottom: 20px;">
+        <p>Le coaching spirituel, constitue un accompagnement destiné à vous aider à explorer et à développer votre dimension spirituelle. Cela peut englober la quête de sens dans la vie, la connexion avec soi-même, l’alignement avec ses valeurs et croyances, ainsi que l’épanouissement personnel. Voici quelques aspects fondamentaux du coaching spirituel</p>
+
+        <p>- <span style="color: #ffff00;">Prise de conscience :</span> Cette approche encourage l’introspection afin de mieux comprendre ses émotions, ses pensées et ses comportements, ce qui permet de mieux identifier ses besoins fondamentaux.</p>
+
+        <p>- <span style="color: #ffff00;">Définition d’objectifs :</span> En collaboration, nous établirons des objectifs spirituels précis, qu’il s’agisse de découvrir un sens à sa vie, de cultiver une pratique de méditation ou d’améliorer vos relations interpersonnelles.</p>
+
+        <p>- <span style="color: #ffff00;">Affinement de l’intuition :</span> Le coaching spirituel vise à développer l’intuition personnelle, facilitant ainsi l’écoute de ses ressentis et la prise de décisions en accord avec son moi intérieur.</p>
+
+        <p>- <span style="color: #ffff00;">Soutien durant les transitions :</span> Que ce soit face à un changement de carrière, une perte ou une quête de sens, le coaching spirituel offre un soutien précieux pour naviguer à travers ces périodes de transition.</p>
+
+        <p>- <span style="color: #ffff00;">Création d’un espace de confiance :</span> Nous établirons un cadre sûr et accueillant où vous pouvez vous exprimer librement, sans crainte de jugement.</p>
+
+        <p>N’hésitez pas à me contacter pour planifier votre séance et commencer cette belle aventure vers le futur et l’épanouissement personnel.</p>
+
+        <p style="color: #ffff00;">Pour le paiement de cette consultation, rapprochez-vous de la rubrique "Dons"</p>
+
+        <p>Stéphane</p>
+    </div>
+
+    <div style="font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bold;">
+        <form method="POST" action="" enctype="multipart/form-data">
+            <table style="width: 100%; border-collapse: separate; border-spacing: 0 15px;">
+                <tr>
+                    <td style="text-align: right; padding-right: 20px; width: 40%;"><label for="coaching-prenom">Votre prénom</label></td>
+                    <td><input type="text" id="coaching-prenom" name="prenom" style="width: 80%; padding: 5px;"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="coaching-mail">Votre adresse mail</label></td>
+                    <td><input type="email" id="coaching-mail" name="mail" style="width: 80%; padding: 5px;" required></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="coaching-naissance">Votre date de naissance</label></td>
+                    <td>
+                        <input type="date" id="coaching-naissance" name="date_naissance" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="coaching-date-rdv">Date du rendez-vous</label></td>
+                    <td>
+                        <input type="date" id="coaching-date-rdv" name="date_rdv" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="coaching-heure-rdv">Heure du rendez-vous</label></td>
+                    <td>
+                        <input type="time" id="coaching-heure-rdv" name="heure_rdv" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="coaching-photo">Votre photo (recommandée)</label></td>
+                    <td>
+                        <input type="file" id="coaching-photo" name="photo" accept="image/*" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="coaching-question">Votre question concerne</label></td>
+                    <td>
+                        <select id="coaching-question" name="domaine" style="padding: 5px;">
+                            <option value="Amour">Amour</option>
+                            <option value="Travail">Travail</option>
+                            <option value="Argent">Argent</option>
+                            <option value="Sante">Santé</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px; vertical-align: top;"><label for="coaching-probleme">Exposez moi votre problème précis</label></td>
+                    <td>
+                        <textarea id="coaching-probleme" name="probleme" style="width: 80%; height: 150px; padding: 5px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit" style="padding: 10px 20px; cursor: pointer; font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bold;">Envoyer le<br>formulaire</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
         </div>
 
         <!-- À domicile Content -->
