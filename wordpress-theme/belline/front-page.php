@@ -121,10 +121,52 @@ get_header(); ?>
 
         <!-- Welcome (Default Content based on original prompt) -->
         <div id="content-accueil" class="spa-content-section active">
-            <h1>Voyance gratuite et approfondie par tchat, en cabinet ou à votre domicile</h1>
-            <p>Bienvenue sur mon site de voyance, de magie blanche et de coaching personnel. Je suis Stéphane, praticien expérimenté, dévoué à vous guider à travers les défis de la vie.</p>
-            <p>Que vous cherchiez des réponses concernant votre avenir amoureux, professionnel ou financier, ou que vous ayez besoin de soutien pour surmonter des obstacles grâce à la magie blanche ou au coaching, vous êtes au bon endroit.</p>
-            <p>Explorez mes services pour découvrir comment je peux vous aider à retrouver la clarté, l'équilibre et la paix intérieure.</p>
+            <h1 style="color: yellow; font-style: italic;">Bienvenue sur mon site de voyance, de magie blanche et de coaching personnel</h1>
+            <p style="font-style: italic; font-weight: bold;">votre destination privilégiée pour explorer l'univers mystérieux de la clairvoyance et de la spiritualité. Que vous soyez en quête de réponses à des questions personnelles, professionnelles ou sentimentales, je suis expérimenté et là pour vous guider avec bienveillance et précision.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Ici pas de tarif, je vous offre la possibilité d'avoir recours aux dons en fonction de votre degré de satisfaction mais dans la limite du raisonnable... Je vous invite à vous rapprocher de la rubrique dédiée à cet effet et à prendre connaissance de la moyenne de ce que mes consultants m'offrent en contrepartie de mes séances.</p>
+
+            <h2 style="color: yellow; font-style: italic; margin-top: 30px;">Les consultations,</h2>
+
+            <p style="font-style: italic; font-weight: bold;">La voyance et la magie blanche sont deux pratiques spirituelles qui s’entrelacent pour offrir des outils puissants d’orientation et de transformation personnelle. La magie blanche, souvent associée à des intentions bienveillantes, utilise des rituels et des énergies positives pour favoriser l’harmonie, la protection et la réussite. Elle vise à créer un environnement propice à l’épanouissement et à la réalisation des désirs.</p>
+
+            <p style="font-style: italic; font-weight: bold;">La voyance permet d’accéder à des connaissances cachées et de percevoir des éléments du passé, du présent ou de l’avenir. Grâce à la cartomancie, je vous offre des éclairages précieux sur les choix à faire et les chemins à emprunter.</p>
+
+            <p style="font-style: italic; font-weight: bold;">La magie blanche est associée à des pratiques spirituelles ou ésotériques qui visent à apporter des bienfaits, à protéger... Elle est généralement perçue comme une forme de magie positive, utilisée pour des intentions altruistes. Par exemple, elle peut être utilisée pour : Protéger et céer des sorts ou des rituels de protection contre les énergies négatives, aider l'émotionnelle, attirer l’amour, favoriser la prospérité et aider à rétablir l’harmonie et l’équilibre dans divers aspects de la vie.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Le coaching spirituel est un soutien qui vise à vous accompagner dans l’exploration et le développement de votre moi spirituel. Cela inclut la recherche de sens dans votre existence, la connexion avec votre être intérieur, l’harmonisation avec vos valeurs et croyances ainsi que votre épanouissement personnel.</p>
+
+            <p style="font-style: italic; font-weight: bold;">En combinant ces disciplines, il est possible de non seulement comprendre les défis et les opportunités qui se présentent, mais aussi d’invoquer des énergies bénéfiques pour favoriser des résultats positifs. Que vous cherchiez à clarifier votre chemin de vie, à attirer l’amour, ou à surmonter des obstacles, la magie blanche, la voyance et le coaching spirituel peuvent vous guider vers un avenir radieux.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Découvrez mes services de consultations par mail, par tchat ainsi qu'en matière de coaching spirituel et laissez la magie, les cartes et la spiritualité vous éclairer sur votre chemin. Osez la découverte de vous-même et de votre avenir avec confiance et sérénité.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Votre avenir n'est pas figé, mais il est le fruit de vos choix et de vos intentions.<br>
+            En prenant conscience de votre pouvoir personnel et en écoutant les conseils que je vous offre, vous pourrez prendre des décisions éclairées et vous épanouir.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Je vous invite à poser vos questions, à partager vos préoccupations, et ensemble, nous explorerons les chemins qui s'offrent à vous.</p>
+
+            <p style="font-style: italic; font-weight: bold; color: yellow;">Votre voyage vers l'épanouissement commence ici !</p>
+
+            <h2 style="color: yellow; font-style: italic; margin-top: 30px;">Mes prestations,</h2>
+
+            <p style="font-style: italic; font-weight: bold;">Vous pouvez me poser votre question de voyance gratuitement par mail ou tchat (rdv).<br>
+            <span style="color: yellow;">(Offre réservée aux nouveaux consultants et valable une seule fois)</span></p>
+
+            <p style="font-style: italic; font-weight: bold;">Pour une consultation detaillée de voyance par mail et selon votre problèmatique, je vous réponds sous quelques minutes ou quelques heures suivant mes disponibilités.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Pour une consultation de voyance détaillée par tchat, d'une demi heure ou d'une heure environ et selon votre problèmatique, je vous reçois de 8h à 21h sur rdv.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Dans le domaine de la magie blanche, je vous reçois de de 8h à 21h par tchat sur rdv.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Dans le cadre de mon coaching spirituel, je vous reçois de 8h à 21h par tchat sur rdv.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Exceptionnel : Je vous propose de me déplacer à votre domicile dans un rayon de 15 kms aux alentours de Saint Florent sur Cher (à 20 kms de la ville de Bourges dans le département du Cher 18000) de 8h à 19h sur rendez-vous.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Découvrez également mon interprétation des lames de l'Oracle Belline, du jeu de 32 cartes, ainsi que des arcanes majeurs du Tarot de Marseille.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Je souhaite vous exprimer ma gratitude pour la confiance que vous m'accordez, car vous êtes de plus en plus nombreux à faire appel à mes services chaque jour.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Stéphane.</p>
         </div>
 
         <!-- Voyance Gratuite Content -->
