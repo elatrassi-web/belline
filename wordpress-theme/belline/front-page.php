@@ -295,8 +295,71 @@ get_header(); ?>
 
         <!-- Tchat Content -->
         <div id="content-tchat" class="spa-content-section">
-            <h2>Consultation par Tchat</h2>
-            <p><em>Contenu à venir...</em></p>
+            <h2 style="color: yellow; font-style: italic;">Consultation détaillée par Tchat</h2>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tchat.png" alt="Tchat" style="margin: 20px auto; display: block; max-width: 150px;">
+
+            <p style="font-style: italic; font-weight: bold;">La cartomancie est un outil puissant qui nous permet d'explorer les énergies qui vous entourent et d'accéder à des perspectives sur votre passé, votre présent et votre avenir.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Durant cette séance, nous allons utiliser l'Oracle Belline pour mieux comprendre vos préoccupations et vos aspirations. Les lames peuvent révéler des informations cachées et offrir des conseils précieux pour vous aider à prendre des décisions éclairées.</p>
+
+            <p style="font-style: italic; font-weight: bold;">N'hésitez pas à partager vos questions ou vos intentions pour cette rencontre, car cela m'aidera à orienter mon tirage. Rappelez-vous que cette expérience est avant tout un moment de réflexion et d'introspection, où vous pourrez découvrir des éléments de votre cheminement personnel.</p>
+
+            <p style="font-style: italic; font-weight: bold;">Ouvrons ensemble la porte à la sagesse des cartes et plongeons dans cette aventure...</p>
+
+            <p style="font-style: italic; font-weight: bold;">N'hésitez pas à me contacter pour planifier votre séance et commencer cette belle aventure vers le futur et l'épanouissement personnel.</p>
+
+            <p style="color: yellow; font-style: italic; font-weight: bold;">Pour le paiement de cette consultation, rapprochez-vous de la rubrique "Dons"</p>
+            <p style="font-style: italic; font-weight: bold;">Stéphane.</p>
+
+            <form class="belline-form" method="POST" action="" enctype="multipart/form-data">
+                <div class="belline-form-group">
+                    <label>Votre prénom</label>
+                    <input type="text" name="prenom" required>
+                </div>
+                <div class="belline-form-group">
+                    <label>Votre adresse mail</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="belline-form-group">
+                    <label>Votre date de naissance</label>
+                    <div style="flex: 2; display: flex; gap: 5px;">
+                        <input type="date" name="date_naissance" required style="width: 100%;">
+                    </div>
+                </div>
+                <div class="belline-form-group">
+                    <label>Date du rendez-vous</label>
+                    <div style="flex: 2; display: flex; gap: 5px;">
+                        <input type="date" name="date_rdv" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="belline-form-group">
+                    <label>Heure du rendez-vous</label>
+                    <div style="flex: 2; display: flex; gap: 5px;">
+                        <input type="time" name="heure_rdv" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="belline-form-group">
+                    <label>Votre photo (recommandée)</label>
+                    <input type="file" name="photo">
+                </div>
+                <div class="belline-form-group">
+                    <label>Votre question concerne</label>
+                    <select name="theme_question" style="flex: 2;">
+                        <option value="amour">Amour</option>
+                        <option value="travail">Travail</option>
+                        <option value="argent">Argent</option>
+                        <option value="famille">Famille</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+                <div class="belline-form-group" style="align-items: flex-start;">
+                    <label>Exposez moi votre problème précis</label>
+                    <textarea name="probleme" rows="5" required></textarea>
+                </div>
+                <div class="submit-btn-container">
+                    <button type="submit" class="submit-btn">Envoyer le<br>formulaire</button>
+                </div>
+            </form>
         </div>
 
         <!-- Magie Blanche Content -->
