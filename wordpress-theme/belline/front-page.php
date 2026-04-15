@@ -364,8 +364,125 @@ get_header(); ?>
 
         <!-- Magie Blanche Content -->
         <div id="content-magie" class="spa-content-section">
-            <h2>Magie Blanche</h2>
-            <p><em>Contenu à venir...</em></p>
+<div class="OESZ OESZ_DivContent OESZG_WE8bfb2a0fb0">
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h2 style="color: #ffff00; font-style: italic; font-family: 'Times New Roman', Times, serif;">Consultation de Magie Blanche</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bougies.png" alt="Bougies" style="max-width: 200px; margin-top: 10px;">
+    </div>
+
+    <div style="text-align: center; font-style: italic; font-weight: bold; font-family: 'Times New Roman', Times, serif; line-height: 1.6; margin-bottom: 20px;">
+        <p>La magie blanche est une pratique spirituelle bienveillante qui utilise des éléments naturels pour canaliser des énergies positives et favoriser l'harmonie dans la vie des individus. Au cœur de cette approche, on trouve des outils tels que les cristaux, les bougies et l'encens, chacun ayant ses propres propriétés et significations.</p>
+
+        <p>Les cristaux sont des réceptacles d'énergie qui peuvent amplifier les intentions et favoriser vos domaines de prédilections. Chaque cristal possède des vibrations uniques et peut être utilisée pour des objectifs spécifiques, comme la protection, l'amour, le domaine professionnel, la clarté mentale... En les intégrant dans des rituels ou en les portant sur soi, on peut bénéficier de leurs effets apaisants et énergisants.</p>
+
+        <p>Les bougies, quant à elles, jouent un rôle central dans la magie blanche. Elles sont souvent allumées lors de rituels pour symboliser l'illumination, la purification et l'intention. La couleur de la bougie choisie peut également avoir une signification particulière, renforçant ainsi le but du rituel. En se concentrant sur la flamme, on peut également méditer et se connecter à des énergies supérieures.</p>
+
+        <p>L'encens, avec ses arômes envoûtants, est utilisé pour purifier l'espace et élever les vibrations durant les rituels. Il aide à créer une atmosphère propice à la méditation et à la concentration, tout en permettant de se relier aux mondes spirituels. Différents types d'encens correspondent à des intentions spécifiques, que ce soit par exemple, pour la protection, l'amour ou la prospérité.</p>
+
+        <p>En somme, la magie blanche, enrichie par l'utilisation de cristaux, de bougies et d'encens, offre une palette d'outils puissants pour ceux qui souhaitent se connecter à leur essence spirituelle, améliorer leur quotidien et manifester leurs désirs dans un cadre de bienveillance et d'harmonie.</p>
+
+        <p>Concernant le domaine sentimental, entre autre, la magie blanche est en mesure de vous aider à trouver l'amour, renforcer les relations existantes, nouer une amitié sincère...</p>
+
+        <p>En ce qui concerne le secteur professionnel, elle a la capacité de vous remettre sur la bonne voie, de vous orienter dans votre recherche d'emploi, de vous aider à identifier des opportunités et de favoriser votre prospérité.</p>
+
+        <p>Contrairement à la magie noire, la magie blanche est pratiquée dans le respect du libre arbitre et vise à apporter du bien-être et des énergies positives. Beaucoup d'autres domaines de prédilections existent en magie blanche.</p>
+
+        <p>L'art de la magie ne se base pas sur des principes scientifiques rigoureux. Environ 5 à 7% des consultants ne sont pas réceptifs selon mes propres statistiques.</p>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h2 style="color: #ffff00; font-style: italic; font-family: 'Times New Roman', Times, serif;">La séance :</h2>
+    </div>
+
+    <div style="text-align: center; font-style: italic; font-weight: bold; font-family: 'Times New Roman', Times, serif; line-height: 1.6; margin-bottom: 30px;">
+        <p>Des entretiens <span style="color: #ffff00;">gratuits par mail</span> seront organisés pour aborder votre ou vos problèmatiques ainsi que vos souhaits et désirs.</p>
+
+        <p>À l'issue de ces entretiens, nous organiserons une séance par <span style="color: #ffff00;">tchat</span> me permettant de sélectionner pour vous le cristal à magnétiser.</p>
+
+        <p>Plusieurs possibilités vous serons donnés : colliers, pendentifs, boucles d'oreilles, pierre brute, etc... Ce cristal vous sera envoyée par "colissimo" ou enveloppe à bulle avec les incantations et recommandations à suivre. Elle sera expédiée à l'adresse que vous m'indiquerez ou en poste restante pour préserver votre anonymat.</p>
+
+        <p>N'hésitez pas à me contacter pour planifier votre séance et commencer cette belle aventure vers le futur et l'épanouissement personnel.</p>
+
+        <p>PS : Il est nécessaire de remagnétiser la pierre une fois par an. Il vous suffira de me la renvoyer, et je procéderai à son rechargement gratuitement (hors frais d'envoi).</p>
+
+        <p style="color: #ffff00;">Pour le paiement de cette consultation, rapprochez-vous de la rubrique "Dons"</p>
+
+        <p>Stéphane.</p>
+    </div>
+
+    <div style="font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bold;">
+        <form method="POST" action="" enctype="multipart/form-data">
+            <table style="width: 100%; border-collapse: separate; border-spacing: 0 15px;">
+                <tr>
+                    <td style="text-align: right; padding-right: 20px; width: 40%;"><label for="magie-prenom">Votre prénom</label></td>
+                    <td><input type="text" id="magie-prenom" name="prenom" style="width: 80%; padding: 5px;"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="magie-mail">Votre adresse mail</label></td>
+                    <td><input type="email" id="magie-mail" name="mail" style="width: 80%; padding: 5px;" required></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="magie-naissance">Votre date de naissance</label></td>
+                    <td>
+                        <input type="date" id="magie-naissance" name="date_naissance" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="magie-sexe">Sexe</label></td>
+                    <td>
+                        <select id="magie-sexe" name="sexe" style="padding: 5px;">
+                            <option value="Homme">Homme</option>
+                            <option value="Femme">Femme</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="magie-photo">Votre photo (souhaitée)</label></td>
+                    <td>
+                        <input type="file" id="magie-photo" name="photo" accept="image/*" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="magie-date-rdv">Date du rendez-vous</label></td>
+                    <td>
+                        <input type="date" id="magie-date-rdv" name="date_rdv" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="magie-heure-rdv">Heure du rendez-vous</label></td>
+                    <td>
+                        <input type="time" id="magie-heure-rdv" name="heure_rdv" style="padding: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px;"><label for="magie-question">Votre question concerne</label></td>
+                    <td>
+                        <select id="magie-question" name="domaine" style="padding: 5px;">
+                            <option value="Amour">Amour</option>
+                            <option value="Travail">Travail</option>
+                            <option value="Argent">Argent</option>
+                            <option value="Sante">Santé</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; padding-right: 20px; vertical-align: top;"><label for="magie-probleme">Exposez-moi votre problème précis</label></td>
+                    <td>
+                        <textarea id="magie-probleme" name="probleme" style="width: 80%; height: 150px; padding: 5px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit" style="padding: 10px 20px; cursor: pointer; font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bold;">Envoyer</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
         </div>
 
         <!-- Coaching Content -->
