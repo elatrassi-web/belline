@@ -100,7 +100,9 @@ get_header(); ?>
 
     <div class="spa-container">
     <div class="navigation-grid">
-        <!-- Add an explicit Accueil button if needed later, right now Voyance Gratuite is default -->
+        <button class="spa-button" data-target="accueil" aria-label="Accueil" style="margin-bottom: 10px;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Accueil_blue.png" alt="Accueil" style="margin: 0 auto;"></button>
+        <div style="text-align: center; color: yellow; font-style: italic; font-weight: bold; margin-bottom: 10px; font-size: 1.2em;">Version PC</div>
+
         <button class="spa-button" data-target="gratuite" aria-label="Voyance Gratuite"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Gratuite.png" alt="Voyance Gratuite"></button>
         <button class="spa-button" data-target="mail" aria-label="Consultation par Mail"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/02_mail.png" alt="Consultation par Mail"></button>
         <button class="spa-button" data-target="tchat" aria-label="Consultation par Tchat"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/03_tchat.png" alt="Consultation par Tchat"></button>
@@ -120,9 +122,9 @@ get_header(); ?>
         <!-- Welcome (Default Content based on original prompt) -->
         <div id="content-accueil" class="spa-content-section active">
             <h1>Voyance gratuite et approfondie par tchat, en cabinet ou à votre domicile</h1>
-            <p>Bienvenue sur mon site pour une consultation gratuite, sans frais cachés, ou pour aborder un domaine spécifique que vous souhaitez approfondir.</p>
-            <p>Je vous propose une voyance gratuite par mail, car votre avenir ne devrait pas être freiné par des contraintes financières. Mes consultations reposent sur le tirage des Tarots et de l'Oracle de Belline. Que ce soit en direct à mon cabinet, par mail ou par téléphone, chaque échange est confidentiel et personnalisé.</p>
-            <p>Mon don est à votre disposition pour vous guider sur votre chemin de vie. Si vous le souhaitez, un don de votre choix (à partir de 1 €) peut m'être adressé pour me soutenir.</p>
+            <p>Bienvenue sur mon site de voyance, de magie blanche et de coaching personnel. Je suis Stéphane, praticien expérimenté, dévoué à vous guider à travers les défis de la vie.</p>
+            <p>Que vous cherchiez des réponses concernant votre avenir amoureux, professionnel ou financier, ou que vous ayez besoin de soutien pour surmonter des obstacles grâce à la magie blanche ou au coaching, vous êtes au bon endroit.</p>
+            <p>Explorez mes services pour découvrir comment je peux vous aider à retrouver la clarté, l'équilibre et la paix intérieure.</p>
         </div>
 
         <!-- Voyance Gratuite Content -->
