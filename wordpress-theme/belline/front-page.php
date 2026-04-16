@@ -802,27 +802,75 @@ get_header(); ?>
                     <!-- Les Trèfles -->
                     <h3 style="color: #ffff00; text-decoration: underline; margin: 30px 0;">Les Trèfles</h3>
                     <div class="cartes-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; justify-items: center; margin-bottom: 40px;">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/26 - 7 de trefle.png" alt="7 de trefle" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/27 - 8 de trefle.png" alt="8 de trefle" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/28 - 9 de trefle.png" alt="9 de trefle" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/29 - 10 de trefle.png" alt="10 de trefle" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/30 - Valet de trefle.png" alt="Valet de trefle" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/31 - Dame de trefle.png" alt="Dame de trefle" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/32 - Roi de trefle.png" alt="Roi de trefle" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/25 - As de trefle.png" alt="As de trefle" class="carte-img" />
+                        <div class="carte-container" data-card-id="23">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/26 - 7 de trefle.png" alt="7 de trefle" class="carte-img" />
+                            <div class="carte-tooltip">Sept de Trèfle</div>
+                        </div>
+                        <div class="carte-container" data-card-id="24">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/27 - 8 de trefle.png" alt="8 de trefle" class="carte-img" />
+                            <div class="carte-tooltip">Huit de Trèfle</div>
+                        </div>
+                        <div class="carte-container" data-card-id="25">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/28 - 9 de trefle.png" alt="9 de trefle" class="carte-img" />
+                            <div class="carte-tooltip">Neuf de Trèfle</div>
+                        </div>
+                        <div class="carte-container" data-card-id="26">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/29 - 10 de trefle.png" alt="10 de trefle" class="carte-img" />
+                            <div class="carte-tooltip">Dix de Trèfle</div>
+                        </div>
+                        <div class="carte-container" data-card-id="27">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/30 - Valet de trefle.png" alt="Valet de trefle" class="carte-img" />
+                            <div class="carte-tooltip">Valet de Trèfle</div>
+                        </div>
+                        <div class="carte-container" data-card-id="28">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/31 - Dame de trefle.png" alt="Dame de trefle" class="carte-img" />
+                            <div class="carte-tooltip">Dame de Trèfle</div>
+                        </div>
+                        <div class="carte-container" data-card-id="29">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/32 - Roi de trefle.png" alt="Roi de trefle" class="carte-img" />
+                            <div class="carte-tooltip">Roi de Trèfle</div>
+                        </div>
+                        <div class="carte-container" data-card-id="30">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/25 - As de trefle.png" alt="As de trefle" class="carte-img" />
+                            <div class="carte-tooltip">As de Trèfle</div>
+                        </div>
                     </div>
 
                     <!-- Les Carreaux -->
                     <h3 style="color: #ffff00; text-decoration: underline; margin: 30px 0;">Les Carreaux</h3>
                     <div class="cartes-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; justify-items: center; margin-bottom: 40px;">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/10 - 7 de carreau.png" alt="7 de carreau" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/11 - 8 de carreau.png" alt="8 de carreau" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/12 - 9 de carreau.png" alt="9 de carreau" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/13 - 10 de carreau.png" alt="10 de carreau" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/14 - Valet de carreau.png" alt="Valet de carreau" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/15 - Dame de carreau.png" alt="Dame de carreau" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/16 - Roi de carreau.png" alt="Roi de carreau" class="carte-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/9 - As de carreau.png" alt="As de carreau" class="carte-img" />
+                        <div class="carte-container" data-card-id="9">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/10 - 7 de carreau.png" alt="7 de carreau" class="carte-img" />
+                            <div class="carte-tooltip">Sept de Carreau</div>
+                        </div>
+                        <div class="carte-container" data-card-id="10">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/11 - 8 de carreau.png" alt="8 de carreau" class="carte-img" />
+                            <div class="carte-tooltip">Huit de Carreau</div>
+                        </div>
+                        <div class="carte-container" data-card-id="11">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/12 - 9 de carreau.png" alt="9 de carreau" class="carte-img" />
+                            <div class="carte-tooltip">Neuf de Carreau</div>
+                        </div>
+                        <div class="carte-container" data-card-id="12">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/13 - 10 de carreau.png" alt="10 de carreau" class="carte-img" />
+                            <div class="carte-tooltip">Dix de Carreau</div>
+                        </div>
+                        <div class="carte-container" data-card-id="13">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/14 - Valet de carreau.png" alt="Valet de carreau" class="carte-img" />
+                            <div class="carte-tooltip">Valet de Carreau</div>
+                        </div>
+                        <div class="carte-container" data-card-id="14">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/15 - Dame de carreau.png" alt="Dame de carreau" class="carte-img" />
+                            <div class="carte-tooltip">Dame de Carreau</div>
+                        </div>
+                        <div class="carte-container" data-card-id="15">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/16 - Roi de carreau.png" alt="Roi de carreau" class="carte-img" />
+                            <div class="carte-tooltip">Roi de Carreau</div>
+                        </div>
+                        <div class="carte-container" data-card-id="16">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/9 - As de carreau.png" alt="As de carreau" class="carte-img" />
+                            <div class="carte-tooltip">As de Carreau</div>
+                        </div>
                     </div>
                 </div>
 
@@ -841,7 +889,7 @@ get_header(); ?>
                 </div>
 
                 <script>
-                    const cartesData = {
+                    window.cartesData = {
                         "pique-7": {
                             title: "Sept de Pique",
                             image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Pique/2 - 7 de pique.png",
@@ -986,7 +1034,89 @@ get_header(); ?>
                                    <p><em>Sentimentalement, l'as de pique symbolise la rupture, la fin d'une histoire d'amour.</em></p>
                                    <p><em>L'as de pique se fait également de mauvaise augure en particulier pour tout ce qui concerne les finances mais il est avant tout un avertissement. C'est pourquoi rien n'est définitif et le consultant reste maître de son destin car il a la capacité d'anticiper les évènements et d'agir sur son futur notamment grace à la cartomancie, la voyance.</em></p>
                                    <p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécessaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`
-                        }
+                        },
+
+    "23": {
+        title: "Sept de Trèfle",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/26 - 7 de trefle.png",
+        text: `Le 7 de trèfle peut indiquer que de nouvelles opportunités se présentent à vous ou que vous ferez preuve de chance dans une situation donnée.<br><br>Cette lame peut également suggérer la nécessité d'agir avec prudence. Il peut être un signal pour ne pas prendre de risques inutiles et d'examiner attentivement les situations avant de prendre des décisions. Il peut encourager une plus grande confiance en soi et pousser à faire confiance à ses instincts.<br><br>Il peut également symboliser le début de nouveaux projets ou entreprises qui pourraient apporter chance et succès.<br><br>Sur le plan sentimental le consultant est face à un dilemne dont il peine à trouver une solution rationnelle qui pourrai avoir des répercutions dramatiques sur sa vie<br><br>Il est possible qu'il soit amené à vouloir tromper sa partenaire et inversement Le consultant doit trouver rapidement une solution à ce conflit intérieur et ne pas rester dans l'expectative au risque de s'en mordre les doigts plus tard.<br><br>Il va falloir qu'il se montre réaliste et objectif. Une aide pourra lui être donnée par son entourage proche, ses amis, sa famille ou un consultant extérieur.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "24": {
+        title: "Huit de Trèfle",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/27 - 8 de trefle.png",
+        text: `Le huit de trèfle symbolise l'avenir professionnel.<br><br>Sous peu de temps Le consultant apprendra une bonne nouvelle en vue, une promotion est en vue suite a un travail soutenu et prolifique. Il fait référence à l'importance du travail acharné et des efforts pour atteindre ses objectifs. Il incite à persévérer et à ne pas abandonner face aux obstacles. S'en suivra une période de réussite et d'accomplissement dans ses projets, surtout s'ils sont liés au travail ou aux finances.<br><br>Souvent liée à des opportunités sur le plan financier, des gains matériels ou des projets à venir qui pourraient s'avérer bénéfiques, elle peut aussi symboliser l'importance de la communication dans les affaires et les relations. Elle encourage à être clair et direct dans vos échanges.<br><br>Cependant près de lui une personne agit dans l'ombre et cherche à contrarier ses projets, ses objectifs. Si le consultant a des soupçons vis à vis d'une personne de son entourage professionnel, il lui est recommandé de prendre de la distance avec elle rapidement : Il peut y avoir conflit d'intérêts. Il peut évoquer un dynamisme, des changements rapides ou des décisions à prendre. Cela peut indiquer un moment d'accélération dans votre vie personnelle ou professionnelle.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "25": {
+        title: "Neuf de Trèfle",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/28 - 9 de trefle.png",
+        text: `Le 9 de trèfle est souvent associé à des périodes de chance et de bonnes opportunités qui se présentent à vous. Cela peut indiquer que vous êtes sur le point de recevoir de bonnes nouvelles ou de voir une amélioration de votre situation.<br><br>Ce chiffre pourrait aussi symboliser une stabilité financière imminente, un gain inattendu ou la réalisation de projets financiers. Il peut aussi signifier que les efforts que vous avez fournis commencent à porter leurs fruits, et que vous pouvez récolter les bénéfices de votre travail.<br><br>Sur un plan plus personnel, le 9 de trèfle peut représenter une période d'équilibre émotionnel et de satisfaction dans la vie quotidienne.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "26": {
+        title: "Dix de Trèfle",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/29 - 10 de trefle.png",
+        text: `Le dix de trèfle symbolise le changement de situation, l'évolution positive, elle indique l'équilibre et le bien-être au sein de votre maison.<br><br>L'harmonie règne au sein de votre couple et elle se fait écho d'une volonté de s'unir par le mariage, elle annonce les fiançailles et si vous êtes célibataire le dix de trèfle se fait présage d'une rencontre prochaine avec l'être qui saura faire battre votre coeur.<br><br>Le 10 de Trèfle est souvent perçu comme un symbole de réussite matérielle, de prospérité et d'abondance. Il peut également représenter des gains financiers ou des réalisations professionnelles. La carte évoque souvent la conclusion de projets ou d'efforts, et le sentiment de satisfaction qui en résulte.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "27": {
+        title: "Valet de Trèfle",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/30 - Valet de trefle.png",
+        text: `Le valet de trèfle symbolise le jeune homme aux cheveux bruns.<br>Selon que vous soyez une femme ou un homme son interprétation diffère :<br><br>Pour une femme il sera le jeune homme séduisant cherchant à vous charmer et avec qui il faudra jouer de prudence et ne pas aller trop vite dans la relation amoureuse qui est en train de naître au risque d'être déçue voire anéantie.<br><br>En effet le valet de trèfle pourrait avoir un caractère destructeur. Il y a danger et la consultante risque d'y laisser des plumes.<br><br>Pour un homme ce sera le rival. Plus jeune et plus séduisant qui pourrait convoiter la conjointe du consultant, il va falloir mettre les choses à plat avec lui et le rendre inoffensif.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "28": {
+        title: "Dame de Trèfle",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/31 - Dame de trefle.png",
+        text: `La dame de trèfle symbolise la femme brune.<br><br>Il faudra que le consultant se méfie de celle-ci car elle est de mauvaise augure plus particulièrement en ce qui concerne les sentiments : la jalousie, la convoitise, elle ne reculera devant rien pour nuire, faire du tort au consultant et lui porter atteinte par pur égoïsme et méchanceté gratuite.<br><br>Elle est aussi souvent associée à des significations spécifiques: Elle peut représenter une femme influente, souvent à caractère pratique, ambitieuse et qui peut être liée aux affaires ou aux finances. Elle aborde les situations de manière pragmatique et analytique.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "29": {
+        title: "Roi de Trèfle",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/32 - Roi de trefle.png",
+        text: `Le roi de trèfle symbolise l'homme d'un âge mûr.<br><br>De par son conseil et de par son expérience il apportera la protection au consultant. Il se fait également signe de satisfaction personnelle pour le consultant en apportant de bonnes nouvelles sur le plan professionnel avec par exemple, une promotion ou une nomination à de nouvelles fonctions, une promotion, une prime.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "30": {
+        title: "As de Trèfle",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/25 - As de trefle.png",
+        text: `L'as de trèfle symbolise la réussite tant spirituelle que professionnelle.<br><br>Elle se fait signe de bien-être intérieur et de satisfaction. Pour le consultant il s'agit d'une période propice aux projets en gestation qu'il faudra mettre en oeuvre. Le succès est au rendez-vous.<br><br>Sentimentalement, une période propice aux joies de la vie de couple, le bonheur est à vos côtés il suffit de vous baisser. Spirituellement, il annonce un don inné pour la cartomancie, la voyance et se fait l'annonce d'une grande satisfaction spirituelle.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+
+    "9": {
+        title: "Sept de Carreau",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/10 - 7 de carreau.png",
+        text: `Le sept de carreau symbolise le monde des affaires<br><br>Il indique les négociations menées à leur terme ou les compromis qu'il faudra faire pour mener à bien un projet en cours comme la vente d'un bien immobilier par exemple<br><br>Elle signifie également la remise en cause et des changements d'orientation pour le consultant qui devra faire le point en ce qui concerne sa vie affective ou professionnelle de façon préméditée ou non. Cette démarche sera couronnée de succès.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "10": {
+        title: "Huit de Carreau",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/11 - 8 de carreau.png",
+        text: `Le huit de carreau symbolise l'innattendu et la nouveauté, les prédictions sont essentiellement positives.<br><br>Le huit de carreau peut symboliser des changements importants dans la vie personnelle ou professionnelle. Cela peut indiquer un déplacement, un voyage ou un changement de carrière. Cette carte est aussi liée à la communication. Elle peut signifier que vous devez exprimer vos pensées ou vos émotions plus clairement, ou qu'une communication importante est sur le point d'avoir lieu.<br><br>Le huit de carreau est une carte qui évoque également l'énergie et le dynamisme. Elle peut suggérer que vous êtes sur le point d'atteindre vos objectifs grâce à votre détermination et votre travail acharné.<br><br>Dans certains contextes, cette carte peut aussi signaler des défis à surmonter, mais il est important de garder à l'esprit que ces défis peuvent être des opportunités déguisées.<br><br>Dans le domaine matériel, le huit de carreau peut indiquer une période de prospérité ou une augmentation financière grâce à des efforts personnels.<br><br>En résumé, le huit de carreau en cartomancie est une carte dynamique qui reflète des changements, des défis, et une énergie positive concentrée sur la communication et l'action.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "11": {
+        title: "Neuf de Carreau",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/12 - 9 de carreau.png",
+        text: `Le neuf de carreau symbolise l'inattendu et le contretemps.<br><br>Il signifie que des obstacles se mettront en travers du chemin du consultant pouvant retarder ses projets, ses attentes.<br><br>Le neuf de carreau est également un signal d'alarme qui renseigne le consultant sur la malignité des personnes qu'il cotoie. En effet que ce soit en amour ou en affaire on le considère, a tort ou a raison, comme un empécheur de tourner en rond et l'on s'acharne à faire échouer ses projets dans l'oeuf. Il va falloir faire preuve d'ouverture d'esprit et de strategie pour renverser la situation.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "12": {
+        title: "Dix de Carreau",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/13 - 10 de carreau.png",
+        text: `Le dix de carreau symbolise la réussite dans les projets et l'aboutissement des efforts.<br><br>Le consultant s'est dévoué sur le plan professionnel.<br>L'évolution sonne à sa porte : promotion ou prime exceptionnelle.<br>Le déménagement, la mutation peuvent être à l'ordre du jour et il lui faudra saisir ces opportunités dans un avenir proche.<br><br>Dans le cercle familial il y a bien-être et satisfaction.<br>Il est possible que le consultant apprenne une naissance chez un être cher à son coeur et ou qu'il projette de prendre des vacances bien méritées : un voyage pour rencontrer un ami proche y compris par delà les rivières ou les mers.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "13": {
+        title: "Valet de Carreau",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/14 - Valet de carreau.png",
+        text: `Le valet de carreau symbolise le messager.<br><br>Le jeune homme se fait porteur d'une nouvelle d'importance capitale.<br>Peut-être des informations pour l'avenir professionnel ou personnel du consultant via le facteur ou un mail mais également par une personne de son entourage proche ou d'un consultant extérieur comme un cartomancien, un voyant.<br><br>Le valet de carreau est souvent associé à des attributs tels que l'énergie, la créativité, et un certain impétueux. Il peut représenter une personne jeune, dynamique et pleine de projets, souvent avec une forte capacité d'adaptation. Dans un tirage, le valet de carreau peut également symboliser des nouvelles, des messages ou des invitations, en particulier en lien avec le domaine professionnel ou matériel.<br><br>Sur le plan affectif le valet de carreau signifie un renouveau et il indique qu'une relation va naître ou encore l'amélioration d'une relation déjà existante.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "14": {
+        title: "Dame de Carreau",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/15 - Dame de carreau.png",
+        text: `La dame de carreau symbolise la femme influente et aisée.<br><br>Comme le roi de carreau elle se fait généralement signe de protection face aux médisances à la jalousie que peut rencontrer le consultant.<br><br>La reine de carreau signifie la femme d'affaire, elle éclaire d'un jour nouveau l'éxistence du consultant son existance professionnelle et il est probable qu'elle l'aide à voir les choses sous un autre angle que celui sous lequel il les avaient jusqu'alors envisagées.<br><br>Le consultant est protégé mais doit cependant se montrer prudent face aux personnes qui gravitent dans son cercle professionnel, familial ou amical.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "15": {
+        title: "Roi de Carreau",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/16 - Roi de carreau.png",
+        text: `Le roi de carreau symbolise l'homme influent et aisé.<br><br>Signe de protection face aux médisances et à la jalousie que peut rencontrer le consultant, il doit se montrer prudent face aux personnes qui gravitent dans son cercle professionnel, familial ou amical.<br><br>Le roi de carreau signifie l'homme d'affaire, il éclaire d'un jour nouveau l'éxistence professionnelle du consultant et il est probable qu'il l'aide à voir les choses sous un autre angle que celui sous lequel il les avaient jusqu'alors envisagées.<br><br>Rien désormais ne semble détourner le consultant du succès dans ses entreprises. Le roi de carreau est gage de réussite. Le consultant doit avoir confiance en ses projets.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
+    "16": {
+        title: "As de Carreau",
+        image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/9 - As de carreau.png",
+        text: `L'as de carreau symbolise la réussite dans l'entreprise.<br><br>Dans le monde du travail l'as de carreau signifie une rentrée d'argent inattendue, une promotion, une prime, pour un travail dans lequel le consultant s'est investi pleinement. Il bénéficie maintenant des retombées fructueuses de son investissement.<br><br>Ce peut également être l'aide d'un ami qui croit en les projets du consultant mais aussi le remboursement d'une dette sur laquelle il ne comptait plus, un gros héritage ou un gain au jeu. Quoi qu'il en soit l'argent qu'annonce l'as de carreau coulera en abondance.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
+    },
                     };
 
                     document.addEventListener('DOMContentLoaded', function() {
