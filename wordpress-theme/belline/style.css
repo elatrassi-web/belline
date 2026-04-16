@@ -137,26 +137,47 @@ Text Domain: belline
     z-index: 10;
 }
 
-/* Tooltip on hover */
+/* Tooltip on hover - Yellow bubble style */
 .oracle-card::after {
     content: attr(data-title);
     position: absolute;
-    bottom: -40px;
+    bottom: 100%; /* Position above the card */
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 5px 10px;
+    background: #ffec8b; /* Yellow bubble */
+    color: #333;
+    padding: 6px 12px;
     border-radius: 4px;
+    border: 1px solid #d4c575;
     font-size: 14px;
+    font-weight: bold;
     white-space: nowrap;
     opacity: 0;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     pointer-events: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    z-index: 20;
+    margin-bottom: 10px;
 }
 
-.oracle-card:hover::after {
-    bottom: 10px;
+/* Bubble arrow */
+.oracle-card::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #ffec8b transparent transparent transparent;
+    opacity: 0;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    z-index: 21;
+    margin-bottom: -2px; /* Pull down over the gap slightly */
+}
+
+.oracle-card:hover::after, .oracle-card:hover::before {
     opacity: 1;
 }
 
