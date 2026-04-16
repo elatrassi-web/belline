@@ -115,3 +115,54 @@ Text Domain: belline
     gap: 20px;
     justify-items: center; /* Center the cards in their grid cells */
 }
+
+/* Oracle Card Hover & Layout */
+.oracle-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.oracle-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.oracle-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    z-index: 10;
+}
+
+/* Tooltip on hover */
+.oracle-card::after {
+    content: attr(data-title);
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.oracle-card:hover::after {
+    bottom: 10px;
+    opacity: 1;
+}
+
+.oracle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
