@@ -101,3 +101,17 @@ Text Domain: belline
     margin-bottom: 15px;
     line-height: 1.5;
 }
+
+.carte-img {
+    width: 100px; /* Force uniform width for all cards */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.cartes-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center; /* Center the cards in their grid cells */
+}
