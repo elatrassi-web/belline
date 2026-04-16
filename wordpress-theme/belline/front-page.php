@@ -1152,11 +1152,110 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- Oracle Belline Content -->
-
+                        <!-- Oracle Belline Content -->
         <div id="content-belline" class="spa-content-section">
-            <h2>Oracle Belline</h2>
-            <p><em>Contenu à venir...</em></p>
+            <h2 style="color: #ffcc00; text-align: center; font-style: italic;">Les lames de l'Oracle Belline</h2>
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/09_oracle_belline.png" alt="Oracle Belline Cards" style="max-width: 200px; height: auto;">
+            </div>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">L'interprétation des cartes du Jeu de Belline requiert une bonne maîtrise des symboles ainsi qu'une sensibilité intuitive. Chaque carte peut apporter des éclairages sur des enjeux émotionnels, spirituels ou pratiques, et leur association peut mettre en lumière des dynamiques profondes de la situation examinée.</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">Le Jeu de Belline dépasse le cadre d'un simple outil de divination ; il constitue un véritable chemin vers la connaissance de soi et la compréhension des événements de la vie. Ce jeu propose une diversité d'interprétations qui permettent d'explorer des aspects cachés de votre existence. En tant qu'instrument de voyance, il encourage la réflexion et l'introspection, tout en ouvrant des perspectives vers l'avenir.</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">D'après les dires de Belline, une consultante qui déménageait pour se retirer à la campagne lui aurait demandé de venir prendre chez elle des documents qui pourraient l'intéresser. Il s'y serait rendu et aurait découvert ainsi des jeux de cartes et un manuscrit qui auraient pu être daté de plus d'un siècle et auraient pu appartenir à l'un des prédécesseurs dans les lieux, le célèbre Mage Edmond qui en son temps aurait prédit entre autres choses le succès littéraire à Alexandre Dumas, etc...</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">L'oracle de Belline est composé de cinquante-trois lames. Quatre d'entre elles sont indépendantes et les quarante-neuf lames restantes sont divisées en sept groupes de sept cartes, chaque groupe est sous l'influence d'une des sept planètes : La Lune, le Soleil, Mercure, Vénus, Mars, Jupiter et enfin Saturne.</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">Si vous vous tirez les cartes, prenez en compte les cartes à la gauche et à la droite des lames et définissez le sens particulier de celles-ci En effet, si une ou plusieurs cartes négatives entourent la lame tirée cela signifie qu'un évènement positif ne verra pas le jour ou qu'il sera atténué voir repoussé Dans le cas contraire et si cette lame est entourée par une ou deux cartes bénéfiques alors vous pourrez voir naître un changement positif.</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center; margin-bottom: 30px;">Pour obtenir de plus amples informations sur la signification des lames de l'Oracle Belline il vous suffit de cliquer sur la carte de votre choix.</p>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames qui ne sont pas sous influence planétaire</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/0-carte-bleue.jpg" alt="Carte Bleue" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/1-la-destinee.jpg" alt="La Destinée" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/2-etoile-homme.jpg" alt="L'Etoile de l'Homme" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/3-etoile-femme.jpg" alt="L'Etoile de la Femme" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence du Soleil</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/4-nativite.jpg" alt="La Nativité" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/5-reussite.jpg" alt="Réussite" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/6-elevation.jpg" alt="Élévation" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/7-honneurs.jpg" alt="Honneurs" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/8-pensee.jpg" alt="Pensée Amitié" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/9-campagne.jpg" alt="Campagne Santé" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/10-presents.jpg" alt="Présents" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de la Lune</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/11-trahison.jpg" alt="Trahison" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/12-depart.jpg" alt="Départ" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/13-inconstance.jpg" alt="Inconstance" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/14-decouverte.jpg" alt="Découverte" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/15-eau.jpg" alt="L'Eau" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/16-penates.jpg" alt="Les Pénates" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/17-maladie.jpg" alt="Maladie" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Mercure</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/18-changement.jpg" alt="Changement" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/19-argent.jpg" alt="L'Argent" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/20-intelligence.jpg" alt="L'Intelligence" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/21-vol.jpg" alt="Vol Perte" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/22-entreprises.jpg" alt="Entreprises" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/23-trafic.jpg" alt="Trafic" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/24-nouvelle.jpg" alt="Nouvelle" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Vénus</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/25-plaisirs.jpg" alt="Plaisirs" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/26-paix.jpg" alt="La Paix" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/27-union.jpg" alt="Union" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/28-famille.jpg" alt="Famille" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/29-amour.jpg" alt="Amour" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/30-table.jpg" alt="La Table" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/31-passions.jpg" alt="Passions" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Mars</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/32-mechancete.jpg" alt="Méchanceté" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/33-proces.jpg" alt="Procès" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/34-despotisme.jpg" alt="Despotisme" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/35-ennemis.jpg" alt="Ennemis" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/36-pourparlers.jpg" alt="Pourparlers" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/37-feu.jpg" alt="Le Feu" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/38-accident.jpg" alt="Accident" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Jupiter</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/39-appui.jpg" alt="Appui" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/40-beaute.jpg" alt="Beauté" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/41-heritage.jpg" alt="Héritage" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/42-sagesse.jpg" alt="Sagesse" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/43-renommee.jpg" alt="La Renommée" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/44-hazard.jpg" alt="Le Hasard" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/45-bonheur.jpg" alt="Bonheur" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Saturne</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/46-infortune.jpg" alt="Infortune" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/47-sterilite.jpg" alt="Stérilité" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/48-fatalite.jpg" alt="Fatalité" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/49-grace.jpg" alt="La Grâce" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/50-ruine.jpg" alt="Ruine" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/51-retard.jpg" alt="Retard" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/52-cloitre.jpg" alt="Cloître" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+            </div>
+
         </div>
 
         <!-- Les Tarots Content -->
