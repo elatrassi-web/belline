@@ -6,3 +6,98 @@ Description: Custom WordPress theme for Belline.net, converted from OpenElement 
 Version: 1.0
 Text Domain: belline
 */
+
+/* Styles for 32 Cartes Tooltips and Modal */
+.carte-container {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.carte-container:hover {
+    transform: scale(1.05);
+}
+
+.carte-tooltip {
+    visibility: hidden;
+    background-color: #fceea7;
+    color: #000;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 10;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin-bottom: 8px;
+}
+
+.carte-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fceea7 transparent transparent transparent;
+}
+
+.carte-container:hover .carte-tooltip {
+    visibility: visible;
+}
+
+/* Modal Overlay */
+.carte-modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content */
+.carte-modal-content {
+    background-color: #808080; /* Matching original grey background */
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.carte-modal-close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.carte-modal-close:hover,
+.carte-modal-close:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+#modal-carte-text p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
